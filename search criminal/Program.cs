@@ -26,7 +26,7 @@ namespace search_criminal
                 switch (userInput)
                 {
                     case "1":
-                        SetParametersSearch(database);
+                        InputSearchParametersCriminal(database);
                         break;
 
                     case "2":
@@ -37,7 +37,7 @@ namespace search_criminal
             }
         }
 
-        private static void SetParametersSearch(Database database)
+        private static void InputSearchParametersCriminal(Database database)
         {
             int growth = GetNumber("Ведите  рост преступника:");
 
